@@ -52,7 +52,36 @@
 
     <!-- header class section end -->
 
+    <!-- contact section start here -->
 
+    <div class="heading">
+        <h3>contact us</h3>
+    </div>
+
+    <section class="contact">
+        <div class="row">
+            <div class="image">
+                <img src="images/contact-img.svg" alt="">
+            </div>
+
+            <div class="form-section">
+                <form action="" method="post">
+                    <h3>tell us something!</h3>
+                    <input type="text" name="name" required placeholder="Enter your name" maxlength="50" class="box">
+
+                    <input type="number" name="number" required placeholder="Enter your number" max="9999999999" min="0" class="box" onkeypress="if(this.value.length == 10) return false;">
+
+                    <input type="email" name="email" required placeholder="Enter your email" maxlength="50" class="box">
+
+                    <textarea name="msg" placeholder="Enter your message" required class="box" cols="30" rows="10" maxlength="500"></textarea>
+
+                    <input type="submit" value="send message" class="btn" name="send">
+                 </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact section end here -->
     <!-- footer section start here -->
     <footer class="footer">
         <section class="box-container">
